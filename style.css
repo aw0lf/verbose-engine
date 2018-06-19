@@ -1,0 +1,128 @@
+html {
+  font-size: 10px;
+  background: url("https://i.imgur.com/Cp5jTAI.jpg");
+  background-size: cover;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.u-keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25vh;
+}
+
+.key {
+  border: .2rem solid rgba(0, 0, 0, 0.904);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(255, 254, 254, 0.137);
+  text-shadow: 0 0 .5rem rgba(0, 0, 0, 0.829);
+}
+
+.key[data-key="32"] {
+  border: .2rem solid rgba(0, 0, 0, 0.904);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 50rem;
+  text-align: center;
+  color: white;
+  background: rgba(255, 254, 254, 0.137);
+  text-shadow: 0 0 .5rem rgba(0, 0, 0, 0.829);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #921081;
+  box-shadow: 0 0 1rem #921081;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.arrow[id="up"] {
+  display: block;
+  margin-left: 27%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 55px 20px;
+  border-color: transparent transparent #ffffff transparent;
+}
+
+.arrow[id="left"] {
+  display: block;
+  margin-left: 17%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27.5px 65px 27.5px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.arrow[id="down"] {
+  display: block;
+  margin-left: 27%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 20px 0 20px;
+  border-color: #ffffff transparent transparent transparent;
+}
+
+.arrow[id="right"] {
+  display: block;
+  margin-left: 17%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 27.5px 0 27.5px 65px;
+  border-color: transparent transparent transparent #ffffff;
+}
+
+.sound {
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  color: #b941a9;
+  -webkit-text-stroke-width: 0.15vh;
+}
+
+.signature {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: beige;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.signature a {
+  text-decoration: none;
+  color: #b941a9
+}
