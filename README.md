@@ -15,7 +15,7 @@ Simple one-page application. Guitar kit, by your keyboard, you can try play the 
 
 >An idea inspired by:   As [WES BOS](https://wesbos.com) and his challeng [JavaScript30](https://javascript30.com)
 
-# How use?
+# How to use?
 
 1) Go go to the application 
     [aw0lf.github.io/verbose-engine](https://aw0lf.github.io/verbose-engine/)
